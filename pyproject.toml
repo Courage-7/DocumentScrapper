@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "documentscrapper"
+version = "0.1.0"
+description = ""
+authors = ["Courage-7 <courage336@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+firecrawl = "^2.2.0"
+langchain = ">=0.3.23"
+python-dotenv = "^1.1.0"
+openai = ">=1.74.0"
+requests = "^2.32.3"
+langchain-openai = ">=0.3.14"
+streamlit = "^1.44.1"
+pandas = "^2.2.3"
+pypdf2 = "^3.0.1"
+python-docx = "^1.1.2"
+openpyxl = "^3.1.5"
+beautifulsoup4 = "^4.13.4"
+chardet = "^5.2.0"
+numpy = "^2.2.5"
+crawl4ai = ">=0.5.0.post8"
+langchain-community = ">=0.3.21"
+langchain-groq = ">=0.3.2"
+langchain-qdrant = ">=0.2.0"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+python-json-logger = "^3.3.0"
+starlette = "^0.46.2"
+pydantic = "^2.11.3"
+pytest = "^8.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
